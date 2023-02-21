@@ -34,3 +34,21 @@
 
 
  /* fin grillas img */
+
+ /* main sobre mi */
+
+ .imgmain {
+    height: 28rem;
+    width: 28rem;
+ }
+
+ .colortexto {
+    color: white;
+ }
+
+ .estilop {
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ /* fin main sobre mi */
