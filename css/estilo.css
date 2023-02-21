@@ -17,3 +17,20 @@
  .fondonav {
     background-color: thistle;
  }
+
+ /* fin nav */
+
+ /* grillas img */
+
+ .fondogrilla {
+    background-color: rgb(41, 50, 65);
+ }
+
+
+ .imginicio {
+    height: 28rem;
+    width: 28rem;
+ }
+
+
+ /* fin grillas img */
