@@ -22,6 +22,10 @@
 
  /* grillas img */
 
+ .estilodiv {
+    padding: 0;
+    margin: 0;
+ }
  .fondogrilla {
     background-color: rgb(41, 50, 65);
  }
@@ -52,3 +56,16 @@
  }
 
  /* fin main sobre mi */
+
+ /* footer */
+
+ .imgfooter {
+    height: 35px;
+    width: 35px;
+ }
+
+ .estilop2 {
+    font-weight: bold;
+ }
+
+ /* fin footer */
