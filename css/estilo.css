@@ -1,0 +1,19 @@
+/* editamos el nav */
+
+.h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.estilonav {
+    font-size: 1,3rem;
+    font-weight: bold;
+}
+
+.estilonav:hover {
+    text-decoration: underline;
+    color: white;
+}
+ .fondonav {
+    background-color: thistle;
+ }
