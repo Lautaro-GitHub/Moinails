@@ -69,3 +69,22 @@
  }
 
  /* fin footer */
+
+ /* SECTION SERVICIOS  */
+
+ .imgservicios {
+   height: 20rem;
+   width: 20rem;
+ }
+
+ .estilopservicios {
+   font-weight: bold;
+   font-size: large;
+ }
+
+ .fondoservicios {
+   
+ }
+
+
+ /* FIN SECTION SERVICIOS */
