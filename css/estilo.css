@@ -104,8 +104,8 @@
    height: 450px;
 }
  .estilop3 {
-   font-weight: bold;
-   font-size: medium;
+   text-justify: block;
+   font-size: 20px;
  }
 
  /* FIN MAIN CUIDADO */
