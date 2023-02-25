@@ -104,7 +104,8 @@
    height: 450px;
 }
  .estilop3 {
-   text-justify: center;
+   padding-left: 25%;
+   padding-right: 25%;
    font-size: 20px;
  }
 
