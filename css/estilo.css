@@ -27,8 +27,9 @@
     margin: 0;
  }
  .fondogrilla {
-    background-color: rgb(41, 50, 65);
- }
+   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  }
+
 
 
  .imginicio {
@@ -83,7 +84,7 @@
  }
 
  .fondoservicios {
-   background-color: rgb(41, 50, 65);
+   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
  }
 
 
@@ -107,6 +108,10 @@
    padding-left: 25%;
    padding-right: 25%;
    font-size: 20px;
+   color: white;
+ }
+ .colortexto {
+   color: white;
  }
 
  /* FIN MAIN CUIDADO */
