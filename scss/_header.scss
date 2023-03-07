@@ -1,0 +1,22 @@
+/*HEADER*/
+
+.h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.estilonav {
+    font-size: 1, 3rem;
+    font-weight: bold;
+
+    &:hover {
+        text-decoration: underline;
+        color: $color_1;
+    }
+}
+
+.fondonav {
+    background-color: $background-color_1;
+}
+
+

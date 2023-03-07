@@ -1,123 +1,99 @@
 body {
-   padding: 0;
-   margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-/* editamos el nav */
-
-
+/*HEADER*/
 .h1 {
-    font-size: 2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .estilonav {
-    font-size: 1,3rem;
-    font-weight: bold;
+  font-size: 1, 3rem;
+  font-weight: bold;
 }
-
 .estilonav:hover {
-    text-decoration: underline;
-    color: white;
+  text-decoration: underline;
+  color: white;
 }
- .fondonav {
-    background-color: thistle;
- }
 
- /* fin nav */
+.fondonav {
+  background-color: thistle;
+}
 
- /* grillas img */
+/*grilla img*/
+.estilodiv {
+  padding: 0;
+  margin: 0;
+}
 
- .estilodiv {
-    padding: 0;
-    margin: 0;
- }
- .fondogrilla {
-   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-  }
+.fondogrilla {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
 
+.imginicio {
+  height: 28rem;
+  width: 28rem;
+}
 
+/*MAIN SOBRE MI*/
+.imgmain {
+  height: 28rem;
+  width: 28rem;
+}
 
- .imginicio {
-    height: 28rem;
-    width: 28rem;
- }
+.colortexto {
+  color: white;
+  color: white;
+}
 
+.estilop {
+  font-weight: bold;
+  font-size: 20px;
+}
 
- /* fin grillas img */
+/* FOOTER */
+.imgfooter {
+  height: 35px;
+  width: 35px;
+}
 
- /* main sobre mi */
+.estilop2 {
+  font-weight: bold;
+}
 
- .imgmain {
-    height: 28rem;
-    width: 28rem;
- }
+/* SERVICIOS */
+.imgservicios {
+  height: 20rem;
+  width: 20rem;
+}
 
- .colortexto {
-    color: white;
- }
+.estilopservicios {
+  font-weight: bold;
+  font-size: large;
+}
 
- .estilop {
-    font-weight: bold;
-    font-size: 20px;
- }
+.fondoservicios {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
 
- /* fin main sobre mi */
+/* CLIENTAS */
+.imgcards {
+  height: 20rem;
+  width: 20rem;
+}
 
- /* footer */
-
- .imgfooter {
-    height: 35px;
-    width: 35px;
- }
-
- .estilop2 {
-    font-weight: bold;
- }
-
- /* fin footer */
-
- /* SECTION SERVICIOS  */
-
- .imgservicios {
-   height: 20rem;
-   width: 20rem;
- }
-
- .estilopservicios {
-   font-weight: bold;
-   font-size: large;
- }
-
- .fondoservicios {
-   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
- }
-
-
- /* FIN SECTION SERVICIOS */
-
- /* CARDS */
-
- .imgcards {
-   height: 20rem;
-   width: 20rem;
- }
-
-
- /* FIN CARDS */
-
- /* MAIN CUIDADO */
+/* CUIDADOS */
 .imgcuidado {
-   height: 450px;
+  height: 450px;
 }
- .estilop3 {
-   padding-left: 25%;
-   padding-right: 25%;
-   font-size: 20px;
-   color: white;
- }
- .colortexto {
-   color: white;
- }
 
- /* FIN MAIN CUIDADO */
+.estilop3 {
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 20px;
+  color: white;
+}
+
+/*# sourceMappingURL=estilo.css.map */
