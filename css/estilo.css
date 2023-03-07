@@ -1,4 +1,10 @@
+body {
+   padding: 0;
+   margin: 0;
+}
+
 /* editamos el nav */
+
 
 .h1 {
     font-size: 2rem;
