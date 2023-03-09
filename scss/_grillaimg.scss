@@ -13,4 +13,11 @@
 .imginicio {
     height: 26rem;
     width: 26rem;
+    transition: all 0.3s ease;
+    filter: grayscale(50%);
+
+    &:hover {
+        filter: grayscale(0%);
+        transform: scale(1.03);
+    }
 }
