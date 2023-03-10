@@ -5,16 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Emprendimiento de uñas con experiencida de más de dos años, trabajamos con los mejores productos y de mayor calidad para satisfacer a nuestros clientes">
+    <meta name="description"
+        content="Emprendimiento de uñas con experiencida de más de dos años, trabajamos con los mejores productos y de mayor calidad para satisfacer a nuestros clientes">
     <meta name="keywords" content="uñas, esmaltado, kapping, esculpidas, diseño">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Moinails</title>
+
+    <!-- ANIMATE.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- AOS ANIMATE -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- CSS BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
-    <!-- CSS ANIMATE -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- CSS LINK -->
     <link rel="stylesheet" href="css/estilo.css">
@@ -27,7 +32,7 @@
     <nav class="navbar navbar-expand-lg fondonav sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <h1 class="h1 animate__animated animate__bounce">MOINAILS</h1>
+                <h1 class="h1">MOINAILS</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,11 +100,11 @@
 
         <main class="">
 
-            <section class="colortexto ">
-                <h2 class="text-center pt-5">
+            <section class="colortexto">
+                <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="text-center pt-5">
                     SOBRE Mí
                 </h2>
-                <P class="text-center estilop animate__animated animate__fadeInDown">
+                <P data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="text-center estilop">
                     Siempre sentí que el diseño y la creatividad serían mi forma de vida.
                     Te voy a contar cómo me convertí en una enamorada del mundo de las uñas.
                     ¡Hola! Mi nombre es Moira Taborda, soy manicura profesional y tengo 21 años.
@@ -110,7 +115,8 @@
             </section>
 
             <div class="text-center">
-                <img class="img-fluid imgmain p-3" src="img/sobremi-1.jfif" alt="Imagen sobre mi">
+                <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                    class="img-fluid imgmain p-3" src="img/sobremi-1.jfif" alt="Imagen sobre mi">
             </div>
 
 
@@ -162,6 +168,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
