@@ -9,58 +9,58 @@ body {
   font-weight: bold;
 }
 
-.estilonav {
+.estiloNav {
   font-size: 1, 3rem;
   font-weight: bold;
 }
-.estilonav:hover {
+.estiloNav:hover {
   text-decoration: underline;
   color: white;
 }
 
-.fondonav {
+.fondoNav {
   background-color: thistle;
 }
 
 /*grilla img*/
-.estilodiv {
+.estiloDiv {
   padding: 0;
   margin: 0;
 }
 
-.fondogrilla {
+.fondoGrilla {
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
-.imginicio {
+.imgInicio {
   height: 26rem;
   width: 26rem;
   transition: all 0.3s ease;
   filter: grayscale(50%);
 }
-.imginicio:hover {
+.imgInicio:hover {
   filter: grayscale(0%);
   transform: scale(1.03);
 }
 
 /*MAIN SOBRE MI*/
-.imgmain {
+.imgMain {
   height: 28rem;
   width: 28rem;
 }
 
-.colortexto {
+.colorTexto {
   color: white;
   color: white;
 }
 
-.estilop {
+.estiloP {
   font-weight: bold;
   font-size: 20px;
 }
 
 /* FOOTER */
-.imgfooter {
+.imgFooter {
   height: 35px;
   width: 35px;
 }
@@ -70,33 +70,33 @@ body {
 }
 
 /* SERVICIOS */
-.imgservicios {
+.imgServicios {
   height: 20rem;
   width: 20rem;
 }
 
-.estilopservicios {
+.estiloPservicios {
   font-weight: bold;
   font-size: large;
 }
 
-.fondoservicios {
+.fondoServicios {
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 /* CLIENTAS */
-.imgcards {
+.imgCards {
   height: 20rem;
   width: 20rem;
 }
 
 /* CUIDADOS */
-.imgcuidado {
+.imgCuidado {
   height: 450px;
 }
 
 /* MIXIN */
-.estiloparrafos {
+.estiloParrafos {
   padding-left: 25%;
   padding-right: 25%;
   font-size: 20px;
